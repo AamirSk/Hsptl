@@ -1,0 +1,183 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    
+    <title>Contact</title>
+    
+   <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+    <!-- Icons -->
+    <link href="Styles/general_foundicons.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="Styles/social_foundicons.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="Styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/camera.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Allura" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Palatino+Linotype" rel="stylesheet"
+        type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet"
+        type="text/css" />
+    <link href="Styles/custom.css" rel="stylesheet" type="text/css" />
+	<script src="Scripts/validation.js" type="text/javascript"></script>
+</head>
+<body id="pageBody">
+<div id="decorative2">
+        <div class="container">
+            <div class="divPanel topArea notop nobottom">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div id="divLogo" class="pull-left">
+                            <a href="Home.htm" id="divSiteTitle">Kewal Endoscopy Center</a><br />
+                            <a href="Home.htm" id="divTagLine">CARE.CURE.HAPPINESS</a>
+                        </div>
+                        <div id="divMenuRight" class="pull-right">
+                            <div class="navbar">
+                                <button type="button" class="btn btn-navbar-highlight btn-large btn-primary" data-toggle="collapse"
+                                    data-target=".nav-collapse">
+                                    NAVIGATION <span class="icon-chevron-down icon-white"></span>
+                                </button>
+                                <div class="nav-collapse collapse">
+                                    <ul class="nav nav-pills ddmenu">
+                                        <li class="dropdown active"><a href="Home.htm">Home</a></li>
+                                        <li class="dropdown"><a href="about.htm">About Us <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="why-choose-kec.htm">Why Choose KEC?</a></li>
+                                                <li><a href="Commitment.htm">Our Commitment to You</a></li>
+                                                <li><a href="Staff.htm">Meet the Team</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="services.htm" class="dropdown-toggle">Services <b class="caret">
+                                        </b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="Laparoscopy.htm">Laparoscopy</a></li>
+                                                <li><a href="Hysteroscopy.htm">Hysteroscopy</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="success-stories.htm" class="dropdown-toggle">Success Stories<b
+                                            class="caret"> </b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="News.htm">News and Press</a></li>
+                                                <li><a href="Testimonials.htm">Testimenials</a></li>
+                                                 <li><a href="Videos.htm">Videos</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="contact.php">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="contentOuterSeparator"></div>
+
+<div class="container">
+
+    <div class="divPanel page-content">
+
+        <div class="breadcrumbs">
+                <a href="Home.htm">Home</a> &nbsp;/&nbsp; <span>Contact Us</span>
+            </div> 
+
+ <div class="row-fluid">
+                <div class="span12">
+                <div style="background-color:#6090C9; padding-bottom:10px;">
+                    <h1 style="text-align: center;">
+                        Contact Us</h1>
+                    </div>
+                    <div style="padding-bottom: 20px;">
+                    </div>
+        <div class="row-fluid">
+                <div class="span8" id="divMain">
+
+                                      	<h3 style="color:#FF6633;"><?php echo $_GET[msg];?></h3>
+					<hr>
+			<!--Start Contact form -->		                                                
+<form name="enq" method="post" action="email/index.php" onsubmit="return validation();">
+  <fieldset>
+    
+	<input type="text" name="name" id="name" value=""  class="input-block-level" placeholder="Name" />
+    <input type="text" name="email" id="email" value="" class="input-block-level" placeholder="Email" />
+    <textarea rows="11" name="message" id="message" class="input-block-level" placeholder="Comments"></textarea>
+    <div class="actions">
+	<input type="submit" value="Send Your Message" name="submit" id="submitButton" class="btn btn-info pull-right" title="Click here to submit your message!" />
+	</div>
+	
+	</fieldset>
+</form>  				 
+			<!--End Contact form -->											 
+                </div>
+				
+				
+			<!--Edit Sidebar Content here-->	
+                 <div class="span4 sidebar">
+
+                    <div class="sidebox">
+                        <h3 class="sidebox-title">Contact Information</h3>
+                    <p>
+                        <address><strong>Kewal Endoscopy Center, Inc.</strong><br />
+                        Address:<br />
+                         Shripad Hospital,<br />
+                                    Ground Floor, india Garage Road,<br />
+                                    Jalgaon - 425001
+                        <br />
+                        <abbr title="Phone">P:</abbr>  (0257) 222 9977 / 09923632681 </address> 
+                        <address>  <strong>Email</strong><br />
+                        <a href="mailto:#">info@kewalendoscopy.com</a></address>  
+                    </p>     
+                     
+					
+                    					
+                    </div>
+					
+					
+                    
+                </div>
+			<!--/End Sidebar Content-->
+				
+				
+            </div>			
+			</div>
+				</div>
+        <div id="footerInnerSeparator"></div>
+    </div>
+
+</div>
+
+<div id="footerOuterSeparator"></div>
+
+ <div id="divFooter" class="footerArea">
+        <div class="container">
+            <div class="divPanel">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <p class="copyright">
+                            Copyright ©2016, Kewal Endoscopy Center. All Rights Reserved.
+                        </p>
+                        <p class="social_bookmarks centerText">
+                            <a href="#"><i class="social foundicon-facebook"></i>Facebook</a> <a href=""><i class="social foundicon-twitter">
+                            </i>Twitter</a> <a href="#"><i class="social foundicon-pinterest"></i>Pinterest</a>
+                            <a href="#"><i class="social foundicon-rss"></i>Rss</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="scripts/jquery.min.js" type="text/javascript"></script> 
+<script src="scripts/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="scripts/default.js" type="text/javascript"></script>
+
+
+
+
+
+</body>
+</html>
