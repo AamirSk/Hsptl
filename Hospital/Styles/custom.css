@@ -215,11 +215,11 @@ img {max-width:100%;height:auto;width:auto;-moz-box-sizing:border-box;-webkit-bo
 
 
 
-body{background-image: none; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #e5f9ea; background-position: initial initial; background-repeat: initial initial; }
+body{background-image: none; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #FBE1EE; background-position: initial initial; background-repeat: initial initial; }
 
-#divLogo{margin-top: 38px; margin-bottom: 0px; margin-left: -3px;}
+#divLogo{margin-top: 25px; margin-bottom: 0px; margin-left: -3px;}
 
-#divSiteTitle {font-family:Monotype Corsiva; color: rgb(142, 176, 55); font-size: 40px; text-shadow: rgba(0, 0, 0, 0.198039) 1px 3px 2px; line-height: 40px; letter-spacing: 2px; text-transform: none; font-weight: bolder; font-style: normal; text-decoration: none;}
+#divSiteTitle {font-family:Monotype Corsiva; color: rgb(142, 176, 55); font-size: 45px; text-shadow: rgba(0, 0, 0, 0.198039) 1px 3px 2px; line-height: 40px; letter-spacing: 2px; text-transform: none; font-weight: bolder; font-style: normal; text-decoration: none;}
 
 #divTagLine {font-family: Aldrich, sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 5px; line-height: 35px; color: rgb(140, 140, 140); text-shadow: none; padding-left: 0px; padding-right: 0px; font-weight: normal; font-style: normal; background-color: transparent;}
 
@@ -263,7 +263,7 @@ h1 {font-family: 'Open Sans'; font-weight: normal; font-style: normal; font-size
 
 .page-content a {color: rgb(132, 164, 51); font-family: 'Open Sans', sans-serif; font-size: 15px; line-height: 29px;}
 
-.sidebox {-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;box-shadow:0 1px 3px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;background-color:#90ad47;color:rgb(51, 51, 51);border-width:1px;border-style:solid;border-color:rgb(255, 255, 255);border-radius:3px;padding:18px;margin-top:11px; font-size: 13px;}
+.sidebox {-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;box-shadow:0 1px 3px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;background-color:rgb(250, 250, 250);color:rgb(51, 51, 51);border-width:1px;border-style:solid;border-color:rgb(255, 255, 255);border-radius:3px;padding:18px;margin-top:11px; font-size: 13px;}
 
 .sidebar {padding-top: 8px;;;}
 
@@ -271,13 +271,13 @@ h1 {font-family: 'Open Sans'; font-weight: normal; font-style: normal; font-size
 
 .sidebox a {font-size: 13px; color: rgb(132, 164, 51);}
 
-#decorative1 {background-color: #90ad47; background-image: url(gray_jean.png); background-size: auto; -webkit-background-size: cover; background-repeat: repeat repeat;}
+#decorative1 {background-color: #DF4090; background-image: url(gray_jean.png); background-size: auto; -webkit-background-size: cover; background-repeat: repeat repeat;}
 
-#decorative2{height: 135px; background-color: rgb(255, 255, 255);}
+#decorative2{height: 145px; background-color: rgb(255, 255, 255);}
 
-#divFooter {font-family: 'Open Sans', sans-serif; background-color: #263B59; color: rgb(180, 173, 173); padding-top: 32px; line-height: 23px; font-size: 12px; text-transform: none; background-image: url(backgrounds/noisy_net.png); background-repeat: repeat repeat;}
+#divFooter {font-family: 'Open Sans', sans-serif; background-color: #E675A3; color: rgb(25, 25, 112); padding-top: 32px; line-height: 23px; font-size: 12px; text-transform: none; background-image: url(backgrounds/noisy_net.png); background-repeat: repeat repeat;}
 
-#divFooter a {color: rgb(132, 164, 51);}
+#divFooter a {color: rgb(102, 51, 153);}
 
 #divFooter h3 {color: rgb(180, 173, 173);}
 
@@ -287,7 +287,7 @@ h2 {font-weight: normal; font-style: normal; font-family: 'Open Sans'; font-size
 
 .breadcrumbs a {color: rgb(132, 164, 51); font-family: 'Open Sans', sans-serif;}
 
-#divHeaderLine1{letter-spacing: -1px; word-spacing: 0px; margin-top:20px; color: rgb(72, 61, 139); font-size: 51px; line-height: 55px; font-family:Century; text-transform: none; text-shadow: rgba(0, 0, 0, 0.14902) 0px 3px 5px, rgba(255, 255, 255, 0.298039) 0px -5px 35px; font-weight: normal; font-style: normal; text-align: left; opacity: 1; padding: 0px; background-image: none;}
+#divHeaderLine1{letter-spacing: -1px; word-spacing: 0px; margin-top: 31px; color: rgb(72, 61, 139); font-size: 51px; line-height: 55px; font-family:Century; text-transform: none; text-shadow: rgba(0, 0, 0, 0.14902) 0px 3px 5px, rgba(255, 255, 255, 0.298039) 0px -5px 35px; font-weight: normal; font-style: normal; text-align: left; opacity: 1; padding: 0px; background-image: none;}
 
 #divHeaderLine2 {font-size: 21px; line-height: 27px; letter-spacing: 1px; margin-top: 12px; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; color: rgb(0, 0, 0); text-shadow: rgba(0, 0, 0, 0.14902) 0px 3px 5px, rgba(255, 255, 255, 0.298039) 0px -5px 35px; text-align: left; font-weight: normal; font-style: italic; padding: 0px; opacity: 1; background-image: none; background-position: initial initial; background-repeat: initial initial;}
 
@@ -310,7 +310,7 @@ a.btn, a.btn-large, a.btn-small, a.btn-mini {color:#333}
 
 .btn-primary, .btn-primary:hover, a.btn-primary, a.btn-primary:hover {color:#ffffff;}
 
-.btn-primary {border-left: 1px solid #7e9d31;
+ .btn-primary {border-left: 1px solid #7e9d31;
     border-right: 1px solid #7e9d31;
     border-top: 1px solid #7e9d31;
     border-bottom: 1px solid #637b27;
@@ -319,7 +319,7 @@ a.btn, a.btn-large, a.btn-small, a.btn-mini {color:#333}
 
  .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {background-color:#7e9d31;}
 
-#divHeaderText {border-color: rgb(51, 51, 51); padding-top: 20px; padding-bottom: 0px;;;;}
+#divHeaderText {border-color: rgb(51, 51, 51); padding-top: 143px; padding-bottom: 0px;;;;}
 
 #decorative1 {-webkit-background-size:auto;-moz-background-size:auto;-o-background-size:auto;background-size:auto;}
 
@@ -353,15 +353,15 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'Op
 
 .navbar .dropdown-menu li > a, .dropdown-menu li > a, .navbar .nav-pills .open .dropdown-toggle {color:rgb(0, 0, 0)}
 
-.navbar .dropdown-menu li > a:hover, .navbar .dropdown-menu .active > a, .navbar .dropdown-menu .active > a:hover, .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a, .navbar .nav-pills .open a.dropdown-toggle:hover {filter:none;color:rgb(255, 255, 255);background-color:#8eb037;background-image:none}
+.navbar .dropdown-menu li > a:hover, .navbar .dropdown-menu .active > a, .navbar .dropdown-menu .active > a:hover, .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a, .navbar .nav-pills .open a.dropdown-toggle:hover {filter:none;color:rgb(255, 255, 255);background-color:#D81B81;background-image:none}
 
 .navbar .nav-pills > li > a {margin-left:2px;margin-right:2px;padding:10px 30px;border-radius:0px;color:rgb(41, 41, 41);background-color:rgb(240, 240, 240)}
 
-.navbar .nav-pills > li > a:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle, .navbar .nav-pills > li > a:focus {color:rgb(255, 255, 255);background-color:#8eb037}
+.navbar .nav-pills > li > a:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle, .navbar .nav-pills > li > a:focus {color:rgb(255, 255, 255);background-color:#D81B81}
 
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle {background:none}
 
-.navbar .nav-pills > .active > a, .navbar .nav-pills > .active > a:hover, .navbar .nav-pills li.dropdown.open > .dropdown-toggle, .navbar .nav-pills li.dropdown.active > .dropdown-toggle {color:rgb(255, 255, 255);background-color:#8eb037;}
+.navbar .nav-pills > .active > a, .navbar .nav-pills > .active > a:hover, .navbar .nav-pills li.dropdown.open > .dropdown-toggle, .navbar .nav-pills li.dropdown.active > .dropdown-toggle {color:rgb(255, 255, 255);background-color:#D81B81;}
 
 .navbar .ddmenu {margin-top:45px;margin-bottom:0px}
 
@@ -483,5 +483,5 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'Op
 .divNews {padding-top:15px;}
 .lapBenefits{height:150px; width:150px;}
 .centerText{text-align:center;}
-
+.pageHeader{background-color:#D81B81; padding-bottom:10px;}
 

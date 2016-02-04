@@ -1559,7 +1559,7 @@ jQuery.fn.extend({
 	},
 
 	// Based off of the plugin by Clint Helfers, with permission.
-	// http://blindsignals.com/index.php/2009/07/jquery-delay/
+	
 	delay: function( time, type ) {
 		///	<summary>
 		///		Set a timer to delay execution of subsequent items in the queue.

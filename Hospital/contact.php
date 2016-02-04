@@ -47,7 +47,7 @@
                                             <ul class="dropdown-menu">
                                                 <li><a href="why-choose-kec.htm">Why Choose KEC?</a></li>
                                                 <li><a href="Commitment.htm">Our Commitment to You</a></li>
-                                                <li><a href="Staff.htm">Meet the Team</a></li>
+                                                <li><a href="Staff.htm">Meet the Doctor</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown"><a href="services.htm" class="dropdown-toggle">Services <b class="caret">
@@ -55,6 +55,14 @@
                                             <ul class="dropdown-menu">
                                                 <li><a href="Laparoscopy.htm">Laparoscopy</a></li>
                                                 <li><a href="Hysteroscopy.htm">Hysteroscopy</a></li>
+												<li class="dropdown"><a href="#" class="dropdown-toggle">Infertility Prevention</a>
+                                                    <ul class="dropdown-menu sub-menu" style="display: none;">
+                                                        <li><a href="Infertility.htm">Overview</a></li>
+                                                        <li><a href="ART.htm">Treatment Option- ART</a></li>
+                                                        <li><a href="Surgery.htm">Treatment Option- Surgery</a></li>
+                                                        <li><a href="FertilityDrugs.htm">Treatment Option- Fertility Drugs</a></li>
+                                                    </ul>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li class="dropdown"><a href="success-stories.htm" class="dropdown-toggle">Success Stories<b
@@ -88,7 +96,7 @@
 
  <div class="row-fluid">
                 <div class="span12">
-                <div style="background-color:#6090C9; padding-bottom:10px;">
+                <div class="pageHeader">
                     <h1 style="text-align: center;">
                         Contact Us</h1>
                     </div>
@@ -100,7 +108,7 @@
                                       	<h3 style="color:#FF6633;"><?php echo $_GET[msg];?></h3>
 					<hr>
 			<!--Start Contact form -->		                                                
-<form name="enq" method="post" action="email/index.php" onsubmit="return validation();">
+<form name="enq" method="post" action="contactemail.php" onsubmit="return validation();">
   <fieldset>
     
 	<input type="text" name="name" id="name" value=""  class="input-block-level" placeholder="Name" />
@@ -162,7 +170,7 @@
                             Copyright ©2016, Kewal Endoscopy Center. All Rights Reserved.
                         </p>
                         <p class="social_bookmarks centerText">
-                            <a href="#"><i class="social foundicon-facebook"></i>Facebook</a> <a href=""><i class="social foundicon-twitter">
+                          <a href="https://www.facebook.com/Kewal3407/"><i class="social foundicon-facebook"></i>Facebook</a> <a href=""><i class="social foundicon-twitter">
                             </i>Twitter</a> <a href="#"><i class="social foundicon-pinterest"></i>Pinterest</a>
                             <a href="#"><i class="social foundicon-rss"></i>Rss</a>
                         </p>

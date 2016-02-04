@@ -64,6 +64,12 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="ART.htm" />
+    <Content Include="FertilityDrugs.htm" />
+    <Content Include="Surgery.htm" />
+    <Content Include="images\GP.png" />
+    <Content Include="images\GP2.png" />
+    <Content Include="Infertility.htm" />
     <Content Include="Hysteroscopy.htm" />
     <Content Include="images\BackToWorkQuicker.png" />
     <Content Include="images\FasterRecovery.png" />
@@ -77,13 +83,14 @@
     <Content Include="images\LessPain.jpg" />
     <Content Include="images\LessScars.png" />
     <Content Include="images\SmallerCuts.png" />
+    <Content Include="KEC_Logo.png" />
+    <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\validation.js" />
     <Content Include="Videos.htm" />
     <Content Include="NewsDetail2.htm" />
     <Content Include="NewsDetail3.htm" />
     <Content Include="NewsDetail4.htm" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Histeroscopy.htm" />
     <Content Include="Home.htm" />
     <Content Include="images\Hospital.jpg" />
     <Content Include="images\KeyDoc.jpg" />
@@ -101,7 +108,6 @@
     <Content Include="images\success-stories.jpg" />
     <Content Include="images\Training.jpg" />
     <Content Include="images\WhatWeDo.jpg" />
-    <Content Include="index.html" />
     <Content Include="laparoscopy.htm" />
     <Content Include="News.htm" />
     <Content Include="NewsDetail1.htm" />
@@ -195,6 +201,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="email\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />
@@ -203,19 +210,18 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="contact.php" />
+    <None Include="contactus.php" />
     <None Include="Content\bootstrap-theme.css.map" />
     <None Include="Content\bootstrap-theme.min.css.map" />
     <None Include="Content\bootstrap.css.map" />
     <None Include="Content\bootstrap.min.css.map" />
-    <None Include="email\index.php">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="fonts\glyphicons-halflings-regular.ttf" />
     <None Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="fonts\glyphicons-halflings-regular.woff2" />
     <None Include="fonts\social_foundicons.eot" />
     <None Include="fonts\social_foundicons.woff" />
+    <None Include="contactemail.php" />
     <None Include="Scripts\jquery-1.9.1.min.map" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
